@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@400;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@font-face {
+    font-family: 'razer f5';
+    src: url('fonts/razerf5-light_0.otf') format('truetype'); /* adjust the path and format based on your font file */
+    /* you can add more src declarations for different font formats like woff, woff2, etc. */
+  }
+  @font-face {
+    font-family: 'razerF5';
+    src: url(fonts/RazerF5.woff);
+  }
+  @font-face {
+    font-family: 'razerF5Bold';
+    src: url(fonts/RazerF5Bold.woff);
+
+  }
+  @font-face {
+    font-family: 'razerF5Light';
+    src: url(fonts/RazerF5Light.woff);
+  }
+  @font-face {
+    font-family: 'razerF5SemiBold';
+    src: url(fonts/RazerF5SemiBold.woff);
+  }
+  
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  a{
+    text-decoration: none;
+    color: #999;
+  }
+  ul{
+    list-style: none;
+  }
+  body {
+    font-family: 'razer f5', sans-serif; 
+    background: #1D1B19;
+    
+    
+  }
+.Sitelogo{
+    margin-top: 5px;
+}
+header{
+    background: #000;
+    border-bottom: 1px solid #44D62C;
+    padding: 0 60px ;
+    font-family: 'razerF5Light';
+    font-size: 16px;
+    
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60.8px;
+    margin: 0 80px;
+}
+.navbar ul{
+    display: flex;
+    gap: 80px;
+    
+    margin-bottom: 2px;
+}
+.navbar a:hover{
+  color: #fff;
+
+}
+
+.search-box ul{
+    display: flex;
+    gap: 45px;
+    align-items: center;
+}
+.gray-alert{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    background: #555; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 40px;
+    color: #f4f4f4;
+}
+.gray-alert a{
+    color: #fff;
+}
+.section-1{
+    position: relative;
+    top: 0;
+    left: 0;
+    background-image: url(images/1stpic.webp);
+    height: 75vh;
+    min-height: 700px;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+.heading{
+    color: #fff;
+    position: absolute;
+    top:60px;
+    left: 25%;
+}
+.mainhead{
+    font-family: 'RazerF5';
+    font-size: 56px;
+    font-weight: bolder;
+    
+}
+.subhead{
+    text-align: center;
+    font-family: 'razer f5';
+    font-weight: 100;
+    font-size: 28px;
+    line-height: 1.2;
+}
+.links{
+    font-family: 'RazerF5';
+    margin-top: 13px;
+    font-size: 21px;
+    font-weight: 200;
+    text-align: center;
+    color: #f4f4f4;
+}
+.links a{
+    color: #f4f4f4;
+}
+.arrow{
+    color: #44D62C;
+}
+.section-2{
+  background-image: url(images/2ndimg.webp);
+}
+.section-3{
+  background-image: url(images/3rdpic.webp);
+  
+}
+.badge-container{
+  box-sizing: border-box;
+  padding: 25px 0 0 0;
+  
+    font-size: 1.125rem;
+    font-weight: 300;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.badge{
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  background-color: #ff9c07;
+  max-width: 84px;
+  padding-bottom: 4.2px;
+padding-left :14px;
+padding-right: 14px;
+padding-top: 4.2px;
+ 
+}
+.badge-upper{
+  display: block;
+ text-align: left;
+  font-family:'razerF5SemiBold' ;
+  font-size: .6rem;
+  
+}
+.heading-3{
+  margin-top: 25px;
+  margin-left: 110px;
+}
+
+.grid-section ul{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 6 columns with equal width */
+  grid-template-rows: repeat(6, auto);
+   /* 2 rows with auto height, adjust as needed */
+   gap: 10px;
+ 
+}
+.grid-section ul img{
+  width: 743px;
+
+}
+.single{
+  height: 570px;
+  background-position: center;
+  background-size: cover;
+  color: #f4f4f4;
+}
+.grid-1 {
+  background-image: url(images/chair.webp);
+}
+.grid-2{
+  background-image: url(images/laptop.webp);
+}
+.grid-3{
+  background-image: url(images/razer-blade-14-2023-b-950x580-desktop\ \(1\).webp);
+}
+.grid-4{
+  background-image: url(images/hyperlooping.webp);
+}
+.grid-5{
+  background-image: url(images/axon-ashoka-950x580-desktop.webp);
+}
+.grid-6{
+  background-image: url(images/ebonus-card-b-950x580-desktop.webp);
+}
+.single .mainhead{
+  font-size: 40px;
+  display: block;
+  text-align: center;
+  padding-bottom: 8px;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 54px;
+}
+.single .subhead{
+  display: block;
+  text-align: center;
+  font-size: 21px;
+
+  font-weight: 200;
+}
+.single .links{
+  font-size: 17px;
+  font-weight: 300;
+}
+.footer-container{
+  padding: 0 148px;
+}
+.footer-container .row{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+/* .links:hover{
+  text-decoration: underline;
+} */
+footer{background: #111;}
+.footer-container{
+  padding: 25px;
+}
+.razer-slogan{
+  color: rgb(68, 214, 44);
+  font-weight: 600;
+  font-size: 14.4px;
+  letter-spacing: 0.5px;
+ height: 330px;}
+
+.label-container{
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 26px;
+  display: flex;
+  flex-direction: column;
+
+  gap: 5px;
+}
+.label-container div{
+ 
+  font-size: 12px;
+  
+}
+.label-container li{
+  padding-bottom: 12px;
+}
+.social-media img{
+height: 1.75rem;
+width: 1.75rem;
+}
+.label-container .social-media li{
+  padding-bottom: 5px;
+}
+.footer-bottom{
+  margin-top: 5px;
+  color: rgb(153, 153, 153);
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-bottom-left{
+  display: flex;
+  justify-content: space-between;
+  gap: 36px;
+}
